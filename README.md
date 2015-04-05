@@ -13,13 +13,13 @@ We will have you set up a sample party and then go through two in-party tasks th
 Keep in mind that we’re testing the interface, not you, so any issues or confusing bits are not your fault. They are actually helpful to us and signal the things we need to change. Since the application is still being developed, nothing is set in stone, so feel free to call out any detail that you think should be enhanced or changed. Any feedback or questions you have are invaluable to us, much like Dr. Watson is invaluable to Sherlock Holmes. 
 
 ###Startup Instructions:
-We will ask you to view this app from a normal laptop or desktop browser for the set-up task, and from a mobile browser for the party tasks. We are hosting our application as a website, and the in-party features are designed especially for mobile phones, rather than through a specific app or by viewing a small version of a desktop website. This means that using it is as simple as following a link on a web-capable device. If you do not have access to a smartphone, the developer tools (Ctrl+Shift+I on Chrome, Ctrl+Shift+C on Firefox) have the option to view a website as if from a mobile screen. When you are ready to begin the study, follow the first link listed below and read Task I.
+We will ask you to view this app from a normal laptop or desktop browser for the set-up task, and from a mobile browser for the party tasks. We are hosting our application as a website, and the in-party features are designed especially for mobile phones, rather than through a specific app or by viewing a small version of a desktop website. This means that using it is as simple as following a link on a web-capable device. If you do not have access to a smartphone, the developer tools (Ctrl+Shift+I on Chrome, Ctrl+Shift+C on Firefox) have the option to view a website as if from a mobile screen. When you are ready to begin the study, follow the first link listed below and read **Task I**.
 
 ###Tasks:
 #####Task I: 
 Set up a party from an existing template.
 #####Task IIa: 
-Read the sample party invitation below to get an overview of the context for the following tasks. When you have finished, follow the second link below on a smartphone and begin Task IIb.
+Read the sample party invitation below to get an overview of the context for the following tasks. When you have finished, follow the second link below on a smartphone and begin **Task IIb**.
 #####Task IIb: 
 You are in the midst of your murder investigation. In the quest to complete your top objective, you have figured out that another guest, Thibault, is willing to trade the necessary information for a security clearance code. Complete this trade. 
 #####Task III: 
