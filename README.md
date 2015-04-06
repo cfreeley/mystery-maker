@@ -1,4 +1,4 @@
-# mystery-maker
+# [Evil Under the FUN](http://evilunderthefun.s3-website-us-east-1.amazonaws.com/#/timeline)
 Murder Mystery Dinner Party Generator and Hosting and Attending Mobile-first Web App
 
 ##Welcome, Detective!
