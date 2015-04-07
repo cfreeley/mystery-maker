@@ -1,0 +1,44 @@
+<div class="container"> 
+      <a class="btn btn-default btn-flat" ng-href="#/guestlist" role="button"><i class="fa fa-chevron-left fa-2x"></i></a>
+    </div>  
+
+    <div class="container indiv-intro">
+        <div class="indiv-pic"><i class ="fa fa-user"></i></div>
+        <h2 class="info-text">Thibault</h2>
+        <small class="text-muted">A high-profile member of the goth space pirates.</small>
+    </div>
+
+<div class="container">
+      <ul class="nav nav-pills center-pills">
+        <li id="pub-button" role="presentation" class="active" onclick="switchPub()"><a href="#/guest">Public</a></li>
+        <li id="priv-button" role="presentation" onclick="switchPriv()"><a href="#/guest">Private</a></li>
+      </ul>
+    </div>
+    <div class="col-md-6 col-md-offset-3 indiv-info">
+      <div id="public">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam egestas ultricies. Donec id nibh porttitor lectus fermentum dapibus. Mauris et condimentum elit. Vestibulum libero velit, rhoncus sollicitudin posuere vel, sagittis in velit. Maecenas urna nunc, ornare quis fermentum in, laoreet vel neque. Sed rhoncus posuere ligula sit amet malesuada. </p><hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam egestas ultricies. Donec id nibh porttitor lectus fermentum dapibus. Mauris et condimentum elit. </p><hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam egestas ultricies. Donec id nibh porttitor lectus fermentum dapibus. Mauris et condimentum elit. Vestibulum libero velit, rhoncus sollicitudin posuere vel, sagittis in velit. Maecenas urna nunc, ornare quis fermentum in, laoreet vel neque. Sed rhoncus posuere ligula sit amet malesuada.</p>
+      </div>
+
+      <div id="private" class="hidden">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam egestas ultricies. Donec id nibh porttitor lectus fermentum dapibus. Mauris et condimentum elit. Vestibulum libero velit, rhoncus sollicitudin posuere vel, sagittis in velit. Maecenas urna nunc, ornare quis fermentum in, laoreet vel neque. Sed rhoncus posuere ligula sit amet malesuada. </p><hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam egestas ultricies. Donec id nibh porttitor lectus fermentum dapibus. Mauris et condimentum elit. </p>
+      </div>
+    </div>
+
+        <script>
+        function switchPub() {
+          document.getElementById("pub-button").classList.add("active");
+          document.getElementById("priv-button").classList.remove("active");
+          document.getElementById("public").classList.remove("hidden");
+          document.getElementById("private").classList.add("hidden");
+        }
+
+        function switchPriv() {
+          document.getElementById("priv-button").classList.add("active");
+          document.getElementById("pub-button").classList.remove("active");
+          document.getElementById("private").classList.remove("hidden");
+          document.getElementById("public").classList.add("hidden");
+        }
+        </script>

@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="">
+         <h1>Notes</h1>
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="New Note" name="note"> <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-plus"></i></button>
+     
+        </div>
+        <div></div>
+        <ul class="list-unstyled" id="notes">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<a href='#' class='close' aria-hidden='true'>&times;</a></p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<a href='#' class='close' aria-hidden='true'>&times;</a></p>
+            </ul>
+
+</div>
+</div>
+<script>
+    $(document).ready(function () {
+    $('button').click(function () {
+        $('#notes').append("<p>" + $("input[name=note]").val() + " <a href='#' class='close' aria-hidden='true'>&times;</a></p>");
+        $('#form-control').placeholder = "New Note";
+    });
+    $("body").on('click', '#notes a', function () {
+        $(this).closest("p").remove();
+    });
+});
+</script>
