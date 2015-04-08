@@ -8,10 +8,6 @@
  * Controller of the mysteryMakerApp
  */
 angular.module('mysteryMakerApp')
-  .controller('TimelineCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('TimelineCtrl', function ($scope, $rootScope) {
+    $scope = $rootScope;
   });

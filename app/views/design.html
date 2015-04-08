@@ -1,0 +1,39 @@
+<div>
+    <h3>Design a Party</h3>
+    <div class="row">
+      <div class="col-xs-6 col-md-4">
+        <h3>Party Roles</h3>
+        <ul>
+            <li>Tony</li>
+            <li>Tatiana</li>
+            <li>Thibalt</li>
+        </ul>
+        </div>
+        <div class="col-xs-6 col-md-4">
+        <h3>Add Friends</h3>
+        <ul>
+            <li>Tony</li>
+            <li>Tatiana</li>
+            <li>Thibalt</li>
+        </ul>
+        </div>
+        <div class="col-xs-6 col-md-4">
+        <h3>Settings</h3>
+        <form class="form-horizontal">
+                <div class="form-group-sm">
+                    <label class="control-label" for="formGroupInputSmall">Party Name</label>
+                    <div class="">
+                        <input class="form-control" type="text" id="formGroupInputSmall" placeholder="HCI Bash">
+                    </div>
+                </div>
+                <div class="form-group-sm">
+                    <label class="control-label" for="formGroupInputSmall">Friends Attending</label>
+                    <input value="5" type="number" min="2" max="20" />
+                    <label class="control-label" for="formGroupInputSmall">Include Self as Guest</label>
+                     <input type="checkbox" checked="true" />
+                </div>
+                <button class="btn btn-success" ng-click="sendEmails()">Send Invitations</button>
+        </form>
+        </div>
+    </div>
+</div>

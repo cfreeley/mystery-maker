@@ -8,10 +8,9 @@
  * Controller of the mysteryMakerApp
  */
 angular.module('mysteryMakerApp')
-  .controller('ClueCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ClueCtrl', function ($scope, $rootScope, $location) {
+    $scope.share = function() {
+        $rootScope.sharing = true;
+        $location.path('/guestlist')
+    };
   });

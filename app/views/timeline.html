@@ -1,8 +1,19 @@
 <div class="container">
         <div>
-        <h1> Stage II </h1>
+        <h2>Timeline</h2>
+        <h4> Stage {{task}} </h4>
         </div>
+        <p ng-show="task == 3"><label style="font-style: italic; padding-right: 10px">The time has come to make your accusation! </label><a class="btn btn-danger" ng-href="#/guestlist">Accuse</a></p>
         <ul class="timeline">
+            <li ng-show="task == 3">
+              <div class="timeline-badge"></div>
+              <div class="timeline-panel">
+                <div>
+                  <h4>8:12 PM</h4>
+                  <p>Tatiana announces that she plans to confess something, but before she can finish her thought, she falls into a possibly-induced coma.</p>
+                </div>
+              </div>
+            </li>
             <li>
               <div class="timeline-badge"></div>
               <div class="timeline-panel">
@@ -31,4 +42,5 @@
               </div>
             </li>
         </ul>
+
     </div>

@@ -58,6 +58,14 @@ angular
         templateUrl: 'views/clue.html',
         controller: 'ClueCtrl'
       })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
+      })
+      .when('/design', {
+        templateUrl: 'views/design.html',
+        controller: 'DesignCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

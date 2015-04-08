@@ -1,12 +1,14 @@
 <div class="container"> 
+  <h2>View Guest</h2>
       <a class="btn btn-default btn-flat" ng-href="#/guestlist" role="button"><i class="fa fa-chevron-left fa-2x"></i></a>
-    </div>  
 
     <div class="container indiv-intro">
         <div class="indiv-pic"><i class ="fa fa-user"></i></div>
         <h2 class="info-text">Thibault</h2>
         <small class="text-muted">A high-profile member of the goth space pirates.</small>
     </div>
+
+    <div class="container" align="center"><button class="btn btn-lg btn-danger" ng-show="task == 3" ng-click="accuse()">Accuse</button></div>
 
 <div class="container">
       <ul class="nav nav-pills center-pills">
@@ -42,3 +44,5 @@
           document.getElementById("public").classList.add("hidden");
         }
         </script>
+
+      </div>

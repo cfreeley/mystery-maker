@@ -23,26 +23,32 @@
 
     <!-- Add your site or application content here -->
     <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li><a ng-href="#/timeline"><i class="fa fa-home fa-2x"></i></a></li>
-          <li><a ng-href="#/guestlist"><i class="fa fa-users fa-2x"></i></a></li>
-          <li><a ng-href="#/objectives"><i class="fa fa-check-square fa-2x"></i></a></li>
-          <li>
-            <a ng-href="#/evidence"><i class="fa fa-paw fa-2x"></i></a>
-          </li>
-          <li>
-            <a ng-href="#/notes"><i class="fa fa-file-text fa-2x"></i></a>
-          </li>
-        </ul>
-        <h3 class="text-muted">Evil Under the FUN</h3>
+      <div class="header" style="padding: 0; margin-bottom: 0">
+        <div class="navbar" style="margin-bottom: 0">
+          <ul class="nav nav-pills pull-right" ng-hide="task == 1">
+            <li><a ng-href="#/"><i class="fa fa-home fa-2x"></i></a></li>
+            <li><a ng-href="#/guestlist"><i class="fa fa-users fa-2x"></i></a></li>
+            <li><a ng-href="#/objectives"><i class="fa fa-check-square fa-2x"></i></a></li>
+            <li>
+              <a ng-href="#/evidence"><i class="fa fa-paw fa-2x"></i></a>
+            </li>
+            <li>
+              <a ng-href="#/notes"><i class="fa fa-file-text fa-2x"></i></a>
+            </li>
+          </ul>
+          <h3 class="text-muted">Evil Under the FUN</h3>
+        </div>
       </div>
-
       <div ng-view=""></div>
 
-<!--       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div> -->
+      <div class="footer">
+        <p>
+          <ul class="nav nav-pills">
+          <li><button class="btn btn-info" ng-click="changeTask(1);">Task 1</button></li>
+          <li><button class="btn btn-info" ng-click="changeTask(2);">Task 2</button></li>
+          <li><button class="btn btn-info" ng-click="changeTask(3);">Task 3</button></li>
+        </ul></p>
+      </div>
     </div>
 
 
@@ -89,6 +95,8 @@
         <script src="scripts/controllers/notes.js"></script>
         <script src="scripts/controllers/objectives.js"></script>
         <script src="scripts/controllers/clue.js"></script>
+        <script src="scripts/controllers/login.js"></script>
+        <script src="scripts/controllers/design.js"></script>
         <!-- endbuild -->
 </body>
 </html>
