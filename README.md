@@ -1,5 +1,5 @@
 # [Evil Under the FUN](http://evilunderthefun.s3-website-us-east-1.amazonaws.com/)
-Murder Mystery Dinner Party Generator and Hosting and Attending Mobile-first Web App
+Murder Mystery Dinner Party Generator and Hosting and Attending Mobile-first Web App (proof of concept)
 
 ##Welcome, Detective!
 We’re designing a new web application to make the process of hosting a murder mystery party less of a hassle. It will help you and your guests keep better track of all the clues and information and focus on having a good time and solving the murder.
